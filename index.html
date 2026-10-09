@@ -27,7 +27,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	</head>
 	<body class="min-h-screen bg-[hsl(240,75%,98%)]">
-		<nav class="m-8 flex justify-between items-center max-w-sm">
+		<nav class="m-4 md:m-8 flex justify-between items-center max-w-sm md:max-w-none">
 			<img class="w-25" src="./images/logo.svg" />
 			<ul class="list-none flex gap-4">
 				<li><a href="#" class="text-[hsl(243,87%,12%)]">Features</a></li>
@@ -36,7 +36,7 @@
 			</ul>
 		</nav>
 
-		<main class="m-8 md:m-4">
+		<main class="m-4 md:m-8">
 			<div
 				class="md:flex md:flex-row md:items-center md:justify-around gap-10 md:mt-12"
 			>
@@ -46,11 +46,11 @@
 				/>
 				<div class="">
 					<h1
-						class="text-3xl md:text-left w-sm mx-auto md:mx-0 font-bold text-center"
+						class="text-3xl md:text-left w-full max-w-sm mx-auto md:mx-0 font-bold text-center"
 					>
 						All your files in one secure location, accessible anywhere.
 					</h1>
-					<p class="hidden md:block my-8 w-sm">
+					<p class="hidden md:block my-8 w-full max-w-sm">
 						Fylo stores your most important files in one secure location. Access
 						them wherever you need, share and collaborate with friends, family,
 						and co-workers.
@@ -77,7 +77,7 @@
 				/>
 			</div>
 
-			<p class="md:hidden text-center my-8 w-sm mx-auto">
+			<p class="md:hidden text-center my-8 w-full max-w-sm mx-auto">
 				Fylo stores your most important files in one secure location. Access
 				them wherever you need, share and collaborate with friends, family, and
 				co-workers.
@@ -107,7 +107,7 @@
 					src="./images/illustration-2.svg"
 				/>
 				<div class="md:w-1/2">
-					<h1 class="text-3xl my-8 font-bold md:text-left">
+					<h1 class="text-3xl my-8 mx-2 text-center font-bold md:text-left">
 						Stay productive, wherever you are
 					</h1>
 
@@ -205,7 +205,7 @@
 					Get early access today
 				</h1>
 				<p
-					class="text-lg text-center w-sm mx-auto md:w-lg md:text-left leading-6 mb-4"
+					class="text-lg text-center w-full max-w-sm mx-auto md:max-w-lg md:text-left leading-6 mb-4"
 				>
 					It only takes a minute to sign up and our free starter tier is
 					extremely generous. If you have any questions, our support team would
@@ -213,7 +213,7 @@
 				</p>
 			</div>
 
-			<div class="flex flex-col w-sm md:w-lg">
+			<div class="flex flex-col w-full max-w-sm md:max-w-lg">
 				<input
 					class="bg-white border-gray-300 text-gray-800 rounded-md p-4 md:w-full mb-4"
 					type="email"
